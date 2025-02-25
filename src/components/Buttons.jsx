@@ -13,7 +13,7 @@ const Buttons = () => {
       </Link>
       <Link
         target="_blank"
-        href="https://casalalla-v7.vercel.app/booking"
+        href="/booking"
         className="w-full rounded-lg bg-book_btn hover:bg-book_btn_hover text-white py-2 text-center"
       >
         Réservation
