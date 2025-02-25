@@ -7,7 +7,7 @@ const Buttons = () => {
       <Link
         target="_blank"
         href="#"
-        className="w-full rounded-lg bg-carte_btn hover:bg-book_btn py-2 text-center"
+        className="w-full rounded-lg bg-carte_btn hover:bg-book_btn hover:text-white py-2 text-center"
       >
         La Carte
       </Link>

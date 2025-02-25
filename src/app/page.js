@@ -18,6 +18,9 @@ export default function Home() {
       <div className="fixed bottom-5 left-0 w-full block lg:hidden z-10">
         <Buttons />
       </div>
+      <div className="fixed top-12 right-10 w-[20%] hidden lg:block z-10">
+        <Buttons />
+      </div>
     </div>
   );
 }
