@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="w-full bg-black text-white flex flex-col justify-center items-center px-5 pt-5 pb-14">
+    <div className="w-full bg-black text-white flex flex-col justify-center items-center px-5 pt-5 pb-16">
       <div className="w-full flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-6">
         <div className="w-full flex flex-col justify-center items-center">
           <Image
