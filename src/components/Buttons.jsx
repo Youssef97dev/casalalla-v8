@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Buttons = () => {
   return (
-    <div className="w-full flex justify-between gap-3 items-center px-3">
+    <div className="w-full flex justify-between gap-4 items-center px-3">
       <Link
         target="_blank"
         href="#"
