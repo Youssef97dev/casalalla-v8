@@ -6,7 +6,7 @@ const Buttons = () => {
     <div className="w-full flex justify-between gap-3 items-center px-5">
       <Link
         target="_blank"
-        href="#"
+        href="/menu-fr.pdf"
         className="w-full rounded-lg bg-carte_btn hover:bg-book_btn hover:text-white py-2 text-center"
       >
         La Carte
