@@ -16,7 +16,7 @@ const Hero = () => {
         className="object-cover h-full w-full rounded-lg hidden lg:block"
       />
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-20 rounded-lg block lg:hidden m-4"></div>
+
       <Image
         src="/logo-2.png"
         height={200}

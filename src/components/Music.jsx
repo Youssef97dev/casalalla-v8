@@ -5,7 +5,7 @@ const Music = () => {
   return (
     <div className="w-full h-full flex flex-col justify-center items-center gap-10 px-6 pt-10 pb-3">
       <div className="w-full flex flex-col justify-center items-center gap-3 px-3 lg:px-64 text-center">
-        <h1 className="uppercase text-[33.184px] leading-[46.4576px] text-book_btn">
+        <h1 className="uppercase text-[40.184px] leading-[46.4576px] font-extralight mb-5 text-book_btn">
           Expérience Casa Lalla
         </h1>
         <Accordion />
