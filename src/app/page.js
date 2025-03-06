@@ -7,6 +7,12 @@ import Footer from "@/components/Footer";
 import Buttons from "@/components/Buttons";
 import Gallery from "@/components/Gallery";
 
+export const metadata = {
+  title: "Casa Lalla Takerkoust",
+  description: "Exquisite cuisine and amazing panoramic view",
+  favicon: "/favicon.ico",
+};
+
 export default function Home() {
   return (
     <div className="relative w-full h-full flex flex-col justify-start items-center">
