@@ -20,7 +20,7 @@ const Contact = () => {
         ></iframe>
       </div>
       <div className="w-full flex flex-col justify-center items-center text-text_color gap-2 px-14 py-5 mb-14 lg:hidden">
-        <h1 className="uppercase text-[33.184px] leading-[46.4576px] font-galdeano">
+        <h1 className="uppercase text-[33.184px] leading-[46.4576px] ">
           ACCÈS ET CONTACTS
         </h1>
         <div className="w-full flex justify-start items-center gap-3">

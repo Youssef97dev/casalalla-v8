@@ -5,6 +5,7 @@ import Music from "@/components/Music";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Buttons from "@/components/Buttons";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Events />
       <Music />
       <Contact />
+      <Gallery />
       <Footer />
       <div className="fixed bottom-5 left-0 w-full block lg:hidden z-10">
         <Buttons />

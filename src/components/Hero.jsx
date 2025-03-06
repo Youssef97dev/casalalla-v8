@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="relative bg-casa_bg w-full h-screen p-4">
       <Image
-        src="/images/casa_3.jpg"
+        src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/ijf7z5lbtwayp94imo8s"
         height={1000}
         width={600}
         className="object-cover h-full w-full rounded-lg block lg:hidden"

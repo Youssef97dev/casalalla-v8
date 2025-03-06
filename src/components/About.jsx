@@ -3,10 +3,10 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 const images = [
-  "/images/casa_9.jpg",
-  "/images/casa_8.jpg",
-  "/images/casa_5.jpg",
-  "/images/casa_6.jpg",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto:eco/v1/CasaLalla-VNor/j3micvmlxad8p74qiqmv",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto:eco/v1/CasaLalla-VNor/ud4poelfjicsedkvxc6q",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto:eco/v1/CasaLalla-VNor/irjsnwijta06o7jrx8yf",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/rpgxdw9fkmlskq2r871m",
 ];
 
 const About = () => {
@@ -22,7 +22,7 @@ const About = () => {
   return (
     <div className="w-full h-screen bg-[url('/images/casa-texture.png')] bg-cover bg-center bg-no-repeat flex flex-col lg:flex-row justify-start lg:justify-between items-center p-4 lg:p-10">
       <div className="w-full flex flex-col justify-center items-start text-text_color gap-4 px-3 lg:px-20">
-        <h1 className="text-[33.184px] leading-[46.4576px] font-galdeano mb-5">
+        <h1 className="text-[24.184px] leading-[46.4576px]  my-3 font-medium uppercase">
           Casa Lalla Takerkoust
         </h1>
         <p className="text-[16px] leading-[22.4px]">{`Le restaurant Casa Lalla Takerkoust est une véritable invitation au voyage, où l’esprit envoûtant de Mykonos, Ibiza et des îles Baléares rencontre la sérénité des eaux cristallines de Lalla Takerkoust et le décor majestueux des montagnes du Haut Atlas.`}</p>
